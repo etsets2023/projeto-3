@@ -1,0 +1,800 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Open+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root {
+  --cinzanav:#F8F5FF;
+  --black:#000;
+  --roxobotao:#845EF7;
+  --branco: #FFF;
+  --cinzasobre:#FAFAFA;
+  --borda:#D3D7DB;
+  --pretoinout:#30373E;
+  --cinzaplace:#ADB5BD;
+  --roxoservicos:#5A27F2;
+}
+
+section {
+    padding: 50px 75px;
+}
+
+body p{
+    font-family: 'Open Sans', sans-serif;
+font-size: 18px;
+font-weight: 400;
+}
+
+body h1 {
+    font-family: 'Montserrat', sans-serif;
+font-size: 48px;
+font-weight: 400;
+margin-bottom: 20px;
+
+}
+
+.nav_menu_burguer {
+    display: none;
+}
+.nav_menu {
+    background:var(--cinzanav);
+    border-radius: 0px 0px 32px 32px;
+    padding: 21px 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_logo {
+    width: 105px;
+}
+
+.lupa {
+    width: 25px;
+    cursor: pointer;
+}
+
+.nav_menu button {
+    border-radius: 8px;
+border: 1px solid var(--borda);
+padding: 18px 20px;
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+font-weight: 700;
+margin-right: 40px;
+cursor: pointer;
+}
+
+.menu_burguer_botoes {
+    margin-right: 100px;
+}
+
+.projetos {
+    display: flex;
+}
+
+.projetos_imagem {
+    width: 100%;
+    height: 680px;
+    position: relative;
+}
+
+.projetos_texto {
+    position: absolute;
+    margin: 80px 100px;
+}
+
+.projetos h2 {
+    font-family: 'Montserrat', sans-serif;
+font-size: 72px;
+font-weight: 800;
+width: 830px;
+margin-bottom: 24px;
+}
+
+.projetos p {
+    font-family: 'Open Sans', sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 130%;
+letter-spacing: 0.24px;
+width: 680px;
+margin-bottom: 60px;
+}
+
+.projetos button {
+    border-radius: 8px;
+background: var(--roxobotao);
+padding: 18px 32px;
+color: var(--branco);
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+font-weight: 700;
+cursor: pointer;
+}
+
+.sobre {
+    background-color: var(--cinzanav);
+}
+
+.sobre-container {
+    display: flex;
+}
+
+.container-texto {
+    margin-right: 30px;
+}
+.sobre-texto p {
+    text-align: justify;
+    margin-bottom: 32px;
+    line-height: 180%;
+    
+}
+
+.sobre-item {
+    display: flex;
+    margin-bottom: 32px;
+    border-radius: 32px;
+border: 1px solid var(--borda);
+padding: 40px 60px;
+background-color: var(--branco);
+gap: 50px;
+}
+
+.item-imagem-cubo {
+  width: 240px;
+}
+
+.sobre-imagem {
+  width: 800px;
+  display: flex;
+}
+
+.sobre-item h3{
+    font-family: 'Open Sans', sans-serif;
+font-size: 24px;
+font-weight: 700;
+margin-bottom: 5px;
+}
+
+.sobre-item p {
+    font-size: 16px;
+}
+
+.imagem-item{
+    width: 720px;
+}
+
+.lorem_conteudo_texto {
+    border-radius: 32px;
+border: 1px solid var(--borda);
+padding: 40px 60px;
+background-color: var(--branco);
+height: 160px;
+text-align: start;
+position: absolute;
+margin-top: 550px;
+width: 720px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.lorem_conteudo_texto h3 {
+font-family: 'Open Sans', sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 180%; 
+width: 400px;
+text-align: justify;
+}
+
+.sobre-imagem button {
+    border-radius: 8px;
+border: 1px solid var(--roxobotao);
+padding: 18px 32px;
+color: var(--roxobotao);
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+font-weight: 700;
+cursor: pointer;
+}
+
+.trabalhamos_conteudo {
+    display: flex;
+}
+
+.trabalhamos-texto{
+    margin-right: 30px;
+}
+
+.trabalhamos img {
+    width: 720px;
+}
+
+.trabalhamos-texto h3 {
+    font-family: 'Open Sans', sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 130%; 
+letter-spacing: 0.24px;
+margin-bottom: 5px;
+}
+
+.trabalhamos-texto p {
+    line-height: 180%;
+    margin-right: 70px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.botao_mais {
+    border-radius: 8px;
+background: var(--roxobotao);
+padding: 18px 32px;
+color: var(--branco);
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+font-weight: 700;
+cursor: pointer;
+}
+
+.botato_contrate {
+    border-radius: 8px;
+border: 1px solid var(--roxobotao);
+padding: 18px 32px;
+margin-left: 40px;
+color: var(--roxobotao);
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+font-weight: 700;
+cursor: pointer;
+}
+
+.vantagens {
+    background-color: var(--cinzanav);
+}
+
+.vantagens_conteudo_item {
+    border-radius: 32px;
+border: 1px solid var(--borda);
+background: var(--branco);
+padding: 40px;
+display: flex;
+align-items: start;
+gap:24px;
+}
+
+
+.globo {grid-area: globo;}
+.prancheta {grid-area: prancheta;}
+.cronometro {grid-area: cronometro;}
+.grafico {grid-area: grafico;}
+.aviao {grid-area: aviao;}
+.fabrica {grid-area: fabrica;}
+.globo2 {grid-area: globo2;}
+
+.vantagens_couteudo {
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "globo globo prancheta cronometro"
+    "grafico aviao aviao fabrica"
+    "globo2 globo2 globo2 fabrica";
+gap: 20px
+}
+
+.servicos_conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.servicos_conteudo_item{
+    width: 490px;
+    background-color: var(--cinzanav);
+    border-radius: 8px;
+}
+
+.conteudo_item_imagem {
+    width: 490px;
+    height: 165px;
+    border-radius: 12px 12px 0 0;
+    margin-bottom:20px;
+}
+
+.conteudo_item_detalhe {
+    display: flex;
+    margin-left: 45px;
+    margin-right: 45px;
+    gap: 210px;
+}
+
+.servicos h3 {
+    color: var(--roxoservicos);
+    font-family: 'Open Sans', sans-serif;
+font-size: 24px;
+font-weight: 700;
+}
+
+.servicos p {
+   margin-left: 45px;
+   margin-right: 45px;
+   margin-bottom: 50px;
+}
+
+.formulario {
+    display: flex;
+    padding: 50px 75px;
+    background-color: var(--black);
+}
+
+.formulario p {
+    color: var(--branco);
+    width: 490px;
+    line-height: 200%; 
+letter-spacing: 0.16px;
+margin-left: 60px;
+margin-top: 80px;
+}
+
+.texto_detalhes {
+    width: 490px;
+}
+
+.conteudo-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 80px;
+}
+
+a {
+    text-decoration: none;  
+    color: var(--branco);
+    font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+font-weight: 700;
+}
+
+u {
+    color: var(--roxobotao);
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.formulario h1 {
+    width: 490px;
+    color: var(--branco);
+}
+
+.formulario_item, select {
+    width: 490px;
+height: 60px;
+margin-bottom: 24px;
+border-radius: 8px;
+background-color: var(--pretoinout);
+padding: 14px 24px;
+border: none;
+}
+
+form {
+    margin-left: 30px;
+}
+
+::placeholder, select, input{
+    color: var(--cinzaplace);
+}
+
+.concluir button {
+    border-radius: 8px;
+    background: var(--roxobotao);
+    padding: 18px 32px;
+    color: var(--branco);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.concluir {
+    display: flex;
+    align-items: center;
+    gap:20px
+}
+
+input[type=checkbox] {
+  width: 24px;
+  height: 24px;
+}
+
+.check_conteudo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer_logo {
+    margin-left: 20px;
+}
+
+label {
+    color: var(--branco);
+}
+
+.facebook {
+    margin-left: 15px;
+}
+
+.instagram, .facebook, .formulario button {
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+   .menu_burguer_botoes {
+    display: none;
+   }
+
+   body h1 {
+    font-size: 32px;
+ }
+
+ body p {
+    font-size: 14px;
+ }
+
+   section {
+    padding: 37px 50px;
+   }
+ 
+   .nav_menu_burguer  {
+    display: block;
+    background-color: transparent;
+    border: none;
+   }
+
+   .nav_menu { 
+    padding: 16px 50px;
+    background-color: var(--cinzanav);
+    border-radius: 0px 0px 32px 32px;
+   }
+
+   .nav_logo {
+    margin-right: 80px;
+   }
+
+   .sobre-container {
+    display: flex;
+    flex-direction: column;
+}
+
+   .projetos_texto {
+    margin: 40px 40px;
+   }
+
+   .projetos_texto p {
+    width: 400px;
+   }
+
+   .projetos_texto h2 {
+    width: 400px;
+   }
+
+   .sobre-texto {
+    width: 660px;
+    margin-right: 50px;
+   }
+
+   .imagem-item {
+    width: 660px;
+    border-radius: 18px 18px 0 0;
+   }
+
+   .lorem_conteudo_texto {
+    width: 660px;
+    margin-top: 450px
+   }
+
+   .sobre-item {
+    width: 660px;
+    margin-bottom: 20px;
+   }
+
+   .trabalhamos_conteudo {
+    display: flex;
+flex-direction: column;
+   }
+
+   .trabalhamos-texto p {
+   margin-right: 0;
+   }
+
+   .trabalhamos img {
+    width: 660px;
+    margin-top: 20px;
+   }
+
+   .vantagens_couteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "globo prancheta"
+    "globo fabrica"
+    "globo fabrica"
+    "grafico cronometro"
+    "aviao globo2"
+    "aviao globo2";
+    gap:10px;
+   }
+
+   .globo {grid-area: globo;}
+.prancheta {grid-area: prancheta;}
+.cronometro {grid-area: cronometro;}
+.grafico {grid-area: grafico;}
+.aviao {grid-area: aviao;}
+.fabrica {grid-area: fabrica;}
+.globo2 {grid-area: globo2;}
+
+.vantagens_conteudo_item {
+    padding: 24px;
+}
+
+.vantagens {
+    height: 1120px;
+}
+
+.servicos_conteudo_item {
+width: 320px;
+}
+
+.conteudo_item_imagem {
+    width: 320px;
+}
+
+.servicos_conteudo {
+    gap:20px
+}
+
+.conteudo_item_detalhe {
+    gap: 130px;
+    margin: 0px 16px;
+}
+
+.servicos p {
+    margin-left: 16px;
+    font-size: 16px;
+}
+
+.servicos h3 {
+    font-size:18px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+form {
+    margin-top: 30px;
+    margin-left: 0;
+}
+
+.formulario p {
+    margin-left: 0;
+    font-size: 16px;
+}
+
+}
+
+@media (max-width: 320px) {
+    section {
+        padding: 15px;
+    }
+ .nav_menu {
+    background-color: var(--cinzanav);
+    padding: 15px;
+ }
+
+ .projetos_texto {
+    margin:20px 15px;
+ }
+ .projetos h2 {
+    font-size: 24px;
+    width: 260px;
+ }
+
+ .projetos p {
+    font-size: 14px;
+    width: 200px;
+ }
+
+ .projetos_imagem {
+    height: 380px;
+ }
+    
+ .texto {
+    width: 290px;
+ }
+
+ .sobre-item {
+    width: 290px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 0;
+ }
+
+ .item-imagem-cubo {
+    width: 60px;
+ }
+
+ .sobre h3 {
+    font-size: 14px;
+    width: 260px;
+ }
+
+ .imagem-item {
+    width: 290px;
+ }
+
+ .lorem_conteudo_texto {
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    padding: 15px;
+    height: 250px;
+
+ }
+
+ .sobre {
+    height: 1420px;
+ }
+
+ .sobre p {
+    font-size: 14px;
+}
+
+ .sobre button {
+    width: 260px;
+    margin-bottom: 30px;
+ }
+
+ .trabalhamos h3 {
+    font-size: 14px;
+ }
+
+ .trabalhamos p {
+    width: 290px;
+ }
+
+ .botato_contrate {
+    width: 250px;
+    padding: 0;
+    font-size: 14px;
+    margin: 0;
+    
+ }
+
+ .botao_mais {
+  font-size: 14px;
+  width: 200px;
+  
+ }
+
+ .trabalhamos img {
+    width: 290px;
+ }
+
+ .trabalhamos_botoes {
+    display: flex;
+    gap:15px;
+    width: 290px;
+ }
+
+ .vantagens_couteudo {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .vantagens {
+    height: 1500px;
+ }
+
+ .servicos_conteudo_item{
+    width: 290px;
+    
+ }
+
+.conteudo_item_imagem {
+    width: 290px;
+ }
+
+.servicos h3 {
+    font-size: 14px;
+}
+
+.servicos p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.formulario {
+    padding: 15px;
+}
+
+a {
+    font-size: 14px;
+}
+
+.formulario h1, .formulario_item, select{
+    width: 290px;
+    padding: 14px;
+}
+
+.concluir {
+    display: flex;
+    flex-direction: column;
+    grid-template-areas: 
+    "concordo"
+    "botabotao";  
+}
+
+.botaobotao {grid-area: botaobotao;}
+.concordo {grid-area: concordo;}
+
+.concluir button {
+    width: 290px;
+    margin: auto;
+}
+
+label {
+    width: 290px;
+}
+
+.formulario p {
+    font-size: 14px;
+    width: 290px;
+    margin-top:30px;
+}
+
+.check_conteudo {
+    margin-left: 30px;
+}
+
+.concluir{
+    display: flex;
+    flex-direction: column;
+}
+
+.concluir_botao {
+    order: 2;
+}
+
+.check_conteudo {
+    order: 1;
+}
+
+}
+  
+
+    
+
+    
+
+
+
