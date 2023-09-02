@@ -10,9 +10,9 @@
     <header>
         <nav>
             <div class="nav_menu">
-               <button class="nav_menu_burguer"><img src="./assets/header/Menu mobile.svg" alt="menu"></button>
+               <a href="" class="nav_menu_burguer"><img src="./assets/header/Menu mobile.svg" alt="menu"></a>
                 <img class="nav_logo" src="./assets/header/logo.png" alt="logo">
-                <div class="menu_burguer_botoes hide_mobile botoes">
+                <div class="menu_burguer_botoes">
                     <button>Sobre nós</button>
                     <button>Como trabalhamos</button>
                     <button>Vantagens</button>
@@ -36,41 +36,41 @@
         <section class="sobre">
             <h1 class="title">Sobre nós</h1>
             <div class="sobre-container">
-               <div class="container-texto">
+               <div class="container-texto texto1">
                   <div class="sobre-texto">
                      <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                   </div>
                   <div class="sobre-item">
-                     <img class="item-imagem-cubo" src="./assets/sobre/dado.svg" alt="cubo">
-                     <div class="texto_cubo">
-                        <h3>Consultoria de arquitetura e decoração</h3>
-                        <p class="sobre-paragrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                     </div>
+                        <img class="item-imagem-cubo" src="./assets/sobre/dado.svg" alt="cubo">
+                        <div class="texto_cubo">
+                           <h3>Consultoria de arquitetura e decoração</h3>
+                           <p class="sobre-paragrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
                   </div>
                   <div class="sobre-item">
-                     <img class="item-imagem-engrenagem" src="./assets/sobre/engrenagem.svg" alt="engrenagem">
-                     <div>
-                       <h3>Serviço Arquiteto</h3>
-                       <p class="sobre-paragrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <img class="item-imagem-engrenagem" src="./assets/sobre/engrenagem.svg" alt="engrenagem">
+                        <div>
+                          <h3>Serviço Arquiteto</h3>
+                          <p class="sobre-paragrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                   </div>
+                </div>
+                <div class="sobre-imagem texto2"> 
+                    <img class="imagem-item" src="./assets/sobre/sobre.png" alt="profissionais">
+                    <div class="lorem_conteudo_texto">
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+                        <button>Mais</button>
                     </div>
-                  </div>
-               </div>
-               <div class="sobre-imagem"> 
-                 <img class="imagem-item" src="./assets/sobre/sobre.png" alt="profissionais">
-                 <div class="lorem_conteudo_texto">
-                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
-                    <button>Mais</button>
-                 </div>
-               </div>
+                </div>
             </div>
         </section>
 
         <section class="trabalhamos">
             <h1 class="title">Como Trabalhamos</h1>
             <div class="trabalhamos_conteudo">
-               <div class="trabalhamos-texto">
+               <div class="trabalhamos-texto conteudot">
                   <h3>Realizamos uma consulta</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -81,7 +81,7 @@
                       <button class="botato_contrate">Contrate-nos</button>
                   </div>
                </div>
-               <img src="./assets/sobre/como.png" alt="projeto">
+               <img class="imagemt" src="./assets/sobre/como.png" alt="projeto">
             </div>
         </section>
 
@@ -124,57 +124,69 @@
             <div class="servicos_conteudo">
                 <div class="servicos_conteudo_item">
                     <img class="conteudo_item_imagem" src="./assets/servicos/imagem_1.png" alt="oficina">
-                    <div class="conteudo_item_detalhe">
-                        <h3>Lorem ipsum</h3>
-                        <a class="seta" href=""><img src="./assets/servicos/Flecha 32px.png" alt="seta"></a>
+                    <div class="conteudo-descricao">
+                       <div class="conteudo_item_detalhe">
+                           <h3>Lorem ipsum</h3>
+                           <a class="seta" href=""><img src="./assets/servicos/Flecha 32px.png" alt="seta"></a>
+                       </div>
+                       <p class="conteudo_item_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
-                    <p class="conteudo_item_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
                 <div class="servicos_conteudo_item">
                     <img class="conteudo_item_imagem" src="./assets/servicos/imagem_2.png" alt="tratorzinho">
-                    <div class="conteudo_item_detalhe">
+                    <div class="conteudo-descricao">
+                      <div class="conteudo_item_detalhe">
                         <h3>Lorem ipsum</h3>
                         <a class="seta" href=""><img src="./assets/servicos/Flecha 32px.png" alt="seta"></a>
+                      </div>
+                      <p class="conteudo_item_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
-                    <p class="conteudo_item_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
                 <div class="servicos_conteudo_item">
                     <img class="conteudo_item_imagem" src="./assets/servicos/imagem_3.png" alt="marcenaria">
-                    <div class="conteudo_item_detalhe">
+                    <div class="conteudo-descricao">
+                      <div class="conteudo_item_detalhe">
                         <h3>Lorem ipsum</h3>
                         <a class="seta" href=""><img src="./assets/servicos/Flecha 32px.png" alt="seta"></a>
-                    </div>
-                    <p class="conteudo_item_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                      </div>
+                      <p class="conteudo_item_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                   </div>
                 </div>
                 <div class="servicos_conteudo_item">
                     <img class="conteudo_item_imagem" src="./assets/servicos/imagem_4.png" alt="andaime">
-                    <div class="conteudo_item_detalhe">
+                    <div class="conteudo-descricao">
+                      <div class="conteudo_item_detalhe">
                         <h3>Lorem ipsum</h3>
                         <a class="seta" href=""><img src="./assets/servicos/Flecha 32px.png" alt="seta"></a>
-                    </div>
-                    <p class="conteudo_item_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                      <p class="conteudo_item_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                   </div>
                 </div>
                 <div class="servicos_conteudo_item">
                     <img class="conteudo_item_imagem" src="./assets/servicos/imagem_5.png" alt="faíscas">
-                    <div class="conteudo_item_detalhe">
+                    <div class="conteudo-descricao">
+                      <div class="conteudo_item_detalhe">
                         <h3>Lorem ipsum</h3>
                         <a class="seta" href=""><img src="./assets/servicos/Flecha 32px.png" alt="seta"></a>
+                      </div>
+                      <p class="conteudo_item_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
-                    <p class="conteudo_item_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
                 <div class="servicos_conteudo_item">
                     <img class="conteudo_item_imagem" src="./assets/servicos/imagem_6.png" alt="mulher sorrindo">
-                    <div class="conteudo_item_detalhe">
+                    <div class="conteudo-descricao">
+                      <div class="conteudo_item_detalhe">
                         <h3>Lorem ipsum</h3>
                         <a class="seta" href=""><img src="./assets/servicos/Flecha 32px.png" alt="seta"></a>
+                      </div>
+                      <p class="conteudo_item_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
-                    <p class="conteudo_item_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
             </div>
         </section>
 
         <footer class="formulario">
-            <div class="footer_conteudo">
+            <div class="footer_conteudo footert">
                 <div class="conteudo-logo">
                    <img class="footer_logo" src="./assets/footer/footer_logo.svg" alt="logo">
                    <span class="footer_texto" style="color: white;">design systems</span>
@@ -182,8 +194,8 @@
                 <div class="texto_detalhes">
                     <ul>
                         <li><a href="">Sobre nós</a></li>
-                        <li><a href="">Como trabalhamos</a></li>
-                        <li><a href=""><u>Vantagens</u></a></li>
+                        <li><a href=""><u>Como trabalhamos</u></a></li>
+                        <li><a href="" style="color: #5A27F2;"><u>Vantagens</u></a></li>
                         <li><a href="">Serviços</a></li>
                         <li><a href="">Contatos</a></li>
                     </ul>     
@@ -193,7 +205,7 @@
                      </div>
                 </div>
             </div>
-            <form>
+            <form class="footerf">
                 <div>
                     <h1 class="title title_form">Envie sua aplicação</h1>
                     <input class="formulario_item" type="text" placeholder="Nome*" required>
@@ -227,7 +239,7 @@
                    </div>  
                 </div>
             </form>
-            <div>
+            <div class="formulario-paragrafo footerp">
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
             </div>
