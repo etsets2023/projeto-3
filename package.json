@@ -4,7 +4,8 @@
   "description": "projeto-3",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "sass ./style.scss:dist/style.css",
+    "dev": "sass --watch --color ./style.scss:dist/style.css"
   },
   "repository": {
     "type": "git",
